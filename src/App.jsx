@@ -72,11 +72,11 @@ const AppRoutes = () => {
 
 function App() {
   return (
-    <BrowserRouter>
+    //<BrowserRouter>
       <AuthProvider>
         <AppRoutes />
       </AuthProvider>
-    </BrowserRouter>
+    //</BrowserRouter>
   );
 }
 
